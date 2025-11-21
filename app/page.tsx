@@ -12,8 +12,8 @@ export default function Landing() {
       <nav className="fixed top-0 w-full backdrop-blur-md bg-[#111827]/80 border-b border-[#374151] z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="PlotPick" className="w-7 h-7" />
-            <span className="text-xl font-bold bg-gradient-to-r from-[#A78BFA] to-[#F472B6] bg-clip-text text-transparent">PlotPick</span>
+            <img src="/logo.png" alt="PickPlot" className="w-7 h-7" />
+            <span className="text-xl font-bold bg-gradient-to-r from-[#A78BFA] to-[#F472B6] bg-clip-text text-transparent">PickPlot</span>
           </div>
           
           {/* Desktop Menu */}
@@ -32,7 +32,7 @@ export default function Landing() {
           </button>
 
           <button className="hidden md:block px-6 py-2 bg-[#F472B6] hover:bg-[#F472B6]/90 rounded-lg font-semibold transition">
-            Get Started
+            Join Waitlist 
           </button>
         </div>
 
@@ -43,7 +43,7 @@ export default function Landing() {
             <a href="#creators" className="block hover:text-[#A78BFA]">For Creators</a>
             <a href="#pricing" className="block hover:text-[#A78BFA]">Pricing</a>
             <button className="w-full px-4 py-2 bg-[#F472B6] hover:bg-[#F472B6]/90 rounded-lg font-semibold transition">
-              Get Started
+              Join Waitlist 
             </button>
           </div>
         )}
@@ -70,7 +70,7 @@ export default function Landing() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <button className="px-8 py-4 bg-[#F472B6] hover:bg-[#F472B6]/90 rounded-lg font-bold text-lg flex items-center justify-center gap-2 transition transform hover:scale-105">
-              Launch App <ArrowRight className="w-5 h-5" />
+              Join Waitlist <ArrowRight className="w-5 h-5" />
             </button>
             <button className="px-8 py-4 border-2 border-[#A78BFA] hover:bg-[#A78BFA]/10 rounded-lg font-bold text-lg transition">
               Watch Demo
@@ -213,7 +213,7 @@ export default function Landing() {
                 <li className="text-[#A78BFA]/50">✗ Creator tools</li>
               </ul>
               <button className="w-full px-6 py-3 border-2 border-[#A78BFA] hover:bg-[#A78BFA]/10 rounded-lg font-semibold transition">
-                Get Started
+                Join Waitlist 
               </button>
             </div>
 
@@ -232,7 +232,7 @@ export default function Landing() {
                 <li className="text-white">✓ Community sharing</li>
               </ul>
               <button className="w-full px-6 py-3 bg-[#F472B6] hover:bg-[#F472B6]/90 rounded-lg font-semibold transition">
-                Start Free Trial
+                Comming Soon! 
               </button>
             </div>
           </div>
@@ -282,9 +282,6 @@ export default function Landing() {
                 <li><a href="#" className="hover:text-white">Terms</a></li>
               </ul>
             </div>
-          </div>
-          <div className="border-t border-[#374151] pt-8 text-center text-sm text-[#A78BFA]">
-            <p>&copy; 2025 PlotPick. All rights reserved.</p>
           </div>
         </div>
       </footer>
